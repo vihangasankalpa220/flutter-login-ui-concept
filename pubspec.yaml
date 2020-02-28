@@ -18,6 +18,9 @@ environment:
 
 dependencies:
   font_awesome_flutter: ^8.5.0 #for facebook icon
+
+
+
   flutter:
     sdk: flutter
 
@@ -42,13 +45,17 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
+
   # To add assets to your application, add an assets section, like this:
   assets:
    - Assets/image1.png
    - Assets/image2.png
+   - Assets/image3.png
+   - Assets/Facebook.svg.png
+   - Assets/Google.png
+   - Assets/briefcase.png
    
-
-  
 
   
   # An image asset can refer to one or more resolution-specific "variants", see

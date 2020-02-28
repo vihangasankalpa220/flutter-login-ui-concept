@@ -1,14 +1,21 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'Screens/SignInOne.dart';
-import 'Screens/SignInTwo.dart';
-
+import 'Screens/mainfile.dart';
+import 'Screens/Login.dart';
+import 'main.dart';
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
-      body: SignInOne(),
-//    body: SignInTwo(), 
+
+      body:
+
+      //body:
+     // mainfile(),
+      mainfile(),
     );
+
   }
 }
